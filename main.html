@@ -9,14 +9,12 @@
     <script type="text/javascript" src="./script.js">
     </script>
          <h1>Feedback Form</h1>
-        <form  action="portfoliyo.html" method="post">
-          
-           
+        <form method="post"
             <label for="name">Name</label> 
-           <input type="text" placeholder="name" name="f_name" id="name" min="3" max="50"  required>
+           <input type="text"   name="f_name" id="name" minlength="3" maxlength="50"  required>
         
            <label for="portfolio"> Portfolio</label>
-          <input type="url" name="portfolio" id="portfolio" placeholder="portfolio"  required>
+          <input type="url" name="portfolio" id="portfolio"  required>
          
           <label for="favColor"> Favorite Color</label>
           <input type="color" name="color" id="favColor">
@@ -24,10 +22,6 @@
           <label for="likeness"> Likeness</label>
           <input type="range"  id="likeness" min="1"  max="100">
           <input type="submit"  value="submit">
-           
-          
-         
-           
         </form>
     
 </body>
